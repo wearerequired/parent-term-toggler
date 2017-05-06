@@ -45,9 +45,6 @@ var ParentTermToggler = function () {
 			var isChecked = $el.is(':checked');
 			this.traverseParentTermsAndSetChecked($el, isChecked);
 
-			// Workaround for WordPress SEO to trigger primary term handling.
-			this.$metabox.find('input[type="checkbox"]:checked').eq(0).trigger('click');
-
 			// Start watching again.
 			this.watch();
 		}
@@ -71,7 +68,7 @@ var ParentTermToggler = function () {
 					return;
 				}
 
-				$term.prop('checked', checked).trigger('change');
+				$term.trigger('click');
 			});
 		}
 
