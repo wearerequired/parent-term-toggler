@@ -1,0 +1,17 @@
+{
+  "name": "wearerequired/parent-term-toggler",
+  "description": "Automatically toggle the parent term when a sub term is selected.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "required",
+      "email": "info@required.ch",
+      "homepage": "https://required.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  }
+}
