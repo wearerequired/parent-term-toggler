@@ -19,7 +19,13 @@ class ParentTermToggler {
 	 * @param {object} event - Change event.
 	 */
 	toggle( event ) {
-		const $el = $( event.currentTarget );
+		let $el = $( event.currentTarget );
+
+		// Change $el if a popular term is selected.
+		if ( $el.closest( 'li.popular-category' ).length ) {
+			const id = $el.attr( 'id' ).replace( 'popular-', '' );
+			$el = $( `#${id}` );
+		}
 
 		// Ignore changes to non-child terms.
 		if ( ! this.termIsChild( $el ) ) {

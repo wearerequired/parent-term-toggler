@@ -34,6 +34,12 @@ var ParentTermToggler = function () {
 		value: function toggle(event) {
 			var $el = $(event.currentTarget);
 
+			// Change $el if a popular term is selected.
+			if ($el.closest('li.popular-category').length) {
+				var id = $el.attr('id').replace('popular-', '');
+				$el = $('#' + id);
+			}
+
 			// Ignore changes to non-child terms.
 			if (!this.termIsChild($el)) {
 				return;

@@ -57,7 +57,7 @@ function enqueue_script() {
 		'parent-term-toggler',
 		plugins_url( "assets/js/dist/parent-term-toggler$suffix.js", PLUGIN_FILE ),
 		[ 'jquery' ],
-		'20170505',
+		'20170506',
 		true
 	);
 
