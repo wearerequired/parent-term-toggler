@@ -13,8 +13,3 @@ The plugin uses `grunt` to compile the ES6 JavaScript file with [Babel](https://
 	$ npm install
 	$ grunt # Compiles JavaScript file and creates minified version.
 	$ grunt watch # Use during development.
-
-## Changelog
-
-### 1.0.0
-* Initial Release
