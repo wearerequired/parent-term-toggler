@@ -3,7 +3,7 @@
  * Plugin Name: Parent Term Toggler
  * Plugin URI:  https://github.com/wearerequired/parent-term-toggler/
  * Description: Automatically toggle the parent term when a sub term is selected.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      required
  * Author URI:  https://required.com
  * License:     GPL-2.0+

@@ -1,15 +1,25 @@
 {
   "name": "wearerequired/parent-term-toggler",
-  "description": "Automatically toggle the parent term when a sub term is selected.",
-  "type": "wordpress-plugin",
+  "description": "WordPress plugin to automatically toggle the parent term when a sub term is selected.",
+  "homepage": "https://github.com/wearerequired/wp-cli-clear-opcache",
   "license": "GPL-2.0+",
   "authors": [
-    {
-      "name": "required",
-      "email": "info@required.ch",
-      "homepage": "https://required.com",
-      "role": "Developer"
-    }
+      {
+          "name": "required",
+          "email": "info@required.ch",
+          "homepage": "https://required.com",
+          "role": "Company"
+      },
+      {
+          "name": "Dominik Schilling",
+          "email": "dominik@required.ch",
+          "role": "Developer"
+      }
+  ],
+  "keywords": [
+      "wordpress",
+      "admin",
+      "taxonomy"
   ],
   "require": {
     "php": ">=5.6"
