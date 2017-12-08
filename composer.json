@@ -1,7 +1,7 @@
 {
   "name": "wearerequired/parent-term-toggler",
   "description": "WordPress plugin to automatically toggle the parent term when a sub term is selected.",
-  "homepage": "https://github.com/wearerequired/wp-cli-clear-opcache",
+  "homepage": "https://github.com/wearerequired/parent-term-toggler",
   "license": "GPL-2.0+",
   "authors": [
       {
