@@ -45,6 +45,15 @@ function enqueue_script() {
 
 	$taxonomies = get_object_taxonomies( $screen->post_type, 'objects' );
 	$taxonomies = wp_filter_object_list( $taxonomies, [ 'hierarchical' => true ], 'and', 'name' );
+
+	/**
+	 * Filters the list of supported taxonomies.
+	 *
+	 * @since 1.0.0
+	 *
+	 * @param array  $taxonomies An array of taxonomy slugs.
+	 * @param string $post_type  The post type of the current admin screen.
+	 */
 	$taxonomies = apply_filters( 'parent_term_toggler.supported_taxonomies', $taxonomies, $screen->post_type );
 
 	if ( ! $taxonomies ) {
