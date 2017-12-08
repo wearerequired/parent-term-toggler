@@ -1,6 +1,7 @@
 {
   "name": "wearerequired/parent-term-toggler",
   "description": "WordPress plugin to automatically toggle the parent term when a sub term is selected.",
+  "type": "wordpress-plugin",
   "homepage": "https://github.com/wearerequired/parent-term-toggler",
   "license": "GPL-2.0+",
   "authors": [
